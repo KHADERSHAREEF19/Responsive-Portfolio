@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">Khader</a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="navbar-link" data-nav-link>Certifications</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="navbar-link" data-nav-link>Skills</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
+
+          <figure class="hero-banner img-holder has-before" style="--width: 640; --height: 840;">
+            <img src="pro.jpg" width="640" height="840" alt="Bernard Smith" class="img-cover">
+          </figure>
+
+          <div class="hero-content">
+
+            <p class="section-subtitle">Khader Shareef Madani</p>
+
+            <h1 class="h1 hero-title">Jr. SOC Analyst</h1>
+
+            <ul class="hero-list">
+
+              <li>
+                <a href="#" class="list-link">
+                  <span class="span">Cryptographer</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="list-link">
+                  <span class="span">Prompt Engineer</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="list-link">
+                  <span class="span">FrontEnd Developer</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+
+            <ul class="exp-list">
+
+              <li class="list-item">
+                <strong class="strong">8.2</strong>
+
+                <span class="span">
+                  CGPA<br>
+                  From Osmania University
+                </span>
+              </li>
+
+              <li class="list-item">
+                <strong class="strong">9+</strong>
+
+                <span class="span">
+                  Industrial Based<br>
+                  Projects
+                </span>
+              </li>
+
+            </ul>
+
+            <a href="#portfolio" class="slide-down-btn" aria-label="scroll down">
+              <ion-icon name="arrow-down" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CERTIFICATIONS
+      -->
+
+      <section class="section portfolio" id="portfolio" aria-label="portfolio">
+        <div class="container">
+
+          <p class="section-subtitle">CyberSecurity</p>
+
+          <h2 class="h2 section-title">Certifications</h2>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="ciscointrotocyersec.png" width="600" height="675" loading="lazy" alt="Magic Art"
+                    class="img-cover">
+                </figure>
+
+                <a href="#" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">Introduction to CyberSecurity</h3>
+
+                  <p class="card-text">CISCO</p>
+
+                </a>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="jpm.jpg" width="600" height="675" loading="lazy" alt="Bona Green"
+                    class="img-cover">
+                </figure>
+
+                <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/gWbW5qHAChqQBGWpA_JPMorgan%20Chase%20&%20Co._aHS3QeG7AkfKpquCQ_1725868427717_comp" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">CyberSecurity Job Simulation</h3>
+
+                  <p class="card-text">JPMorgan Chase&Co.</p>
+
+                </a>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="ibm.webp" width="600" height="675" loading="lazy" alt="Leo Dandora"
+                    class="img-cover">
+                </figure>
+
+                <a href="#" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">Fundamentals of CyberSecurity</h3>
+
+                  <p class="card-text">IBM</p>
+
+                </a>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="council.png" width="600" height="675" loading="lazy" alt="Folio Grasia"
+                    class="img-cover">
+                </figure>
+
+                <a href="#" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">SQL Injection Attacks</h3>
+
+                  <p class="card-text">EC-Council</p>
+
+                </a>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="micro.jpg" width="600" height="675" loading="lazy" alt="Viva Mercury"
+                    class="img-cover">
+                </figure>
+
+                <a href="#" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">Azure AI Fundamentals</h3>
+
+                  <p class="card-text">Microsoft</p>
+
+                </a>
+
+              </div>
+            </li>
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="ciscoctm.png" width="600" height="675" loading="lazy" alt="Santa Onera"
+                    class="img-cover">
+                </figure>
+
+                <a href="#" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">Cyber Threat Management</h3>
+
+                  <p class="card-text">CISCO</p>
+
+                </a>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="pwc.jpg" width="600" height="675" loading="lazy" alt="Santa Onera"
+                    class="img-cover">
+                </figure>
+
+                <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/PwC%20Switzerland/f9H4CHchzrKQbnbmK_4sLyCPgmsy8DA6Dh3_aHS3QeG7AkfKpquCQ_173031246" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">CyberSecurity Job Simulation</h3>
+
+                  <p class="card-text">PwC Switzerland</p>
+
+                </a>
+
+              </div>
+            </li>
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="anz.jpg" width="600" height="675" loading="lazy" alt="Santa Onera"
+                    class="img-cover">
+                </figure>
+
+                <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/ANZ/Hf4QMESoFeQwXPsiH_ANZ%20Australia_aHS3QeG7AkfKpquCQ_1727098063630_completion_certificate.pdf" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">CyberSecurity Job Simulation</h3>
+
+                  <p class="card-text">ANZ Australia</p>
+
+                </a>
+
+              </div>
+            </li>
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="mm.jpg" width="600" height="675" loading="lazy" alt="Santa Onera"
+                    class="img-cover">
+                </figure>
+
+                <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/mastercard/vcKAB5yYAgvemepGQ_Mastercard_aHS3QeG7AkfKpquCQ_1724011064594_completion_certificate.pdf" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">CyberSecurity Job Simulation</h3>
+
+                  <p class="card-text">Master Card</p>
+
+                </a>
+
+              </div>
+            </li>
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="tataa.png" width="600" height="675" loading="lazy" alt="Santa Onera"
+                    class="img-cover">
+                </figure>
+
+                <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Tata/gmf3ypEXBj2wvfQWC_Tata%20Group_aHS3QeG7AkfKpquCQ_1721050299755_completion_certificate.pdf" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">CyberSecurity Analyst Job Simulation</h3>
+
+                  <p class="card-text">Tata Group</p>
+
+                </a>
+
+              </div>
+            </li>
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="datacom.png" width="600" height="675" loading="lazy" alt="Santa Onera"
+                    class="img-cover">
+                </figure>
+
+                <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Datacom/yTszJTvkHFBH6zAn3_Datacom_aHS3QeG7AkfKpquCQ_1727429631614_completion_certificate.pdf" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">CyberSecurity Management Job Simulation</h3>
+
+                  <p class="card-text">Datacom</p>
+
+                </a>
+
+              </div>
+            </li>
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="aig.png" width="600" height="675" loading="lazy" alt="Santa Onera"
+                    class="img-cover">
+                </figure>
+
+                <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/AIG/2ZFnEGEDKTQMtEv9C_AIG_aHS3QeG7AkfKpquCQ_1726743405408_completion_certificate.pdf" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">CyberSecurity Job Simulation</h3>
+
+                  <p class="card-text">AIG-Shields Up</p>
+
+                </a>
+
+              </div>
+            </li>
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="telstra.jpg" width="600" height="675" loading="lazy" alt="Santa Onera"
+                    class="img-cover">
+                </figure>
+
+                <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Telstra%20AU/RNhbu8QnDzthwynEf_M6JGAwZ52SMusMEcK_aHS3QeG7AkfKpquCQ_1730400474738_" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">CyberSecurity Job Simulation</h3>
+
+                  <p class="card-text">Telstra</p>
+
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills has-before" id="skills" aria-label="skills"
+        style="background-image: url('./assets/images/skills-bg.png')">
+        <div class="container">
+
+          <div class="skills-content">
+
+            <p class="section-subtitle">Skills</p>
+
+            <h2 class="h2 section-title">Technical Skills</h2>
+
+            <p class="section-text">
+              I possess strong programming skills in Python and Bash, enabling me to effectively automate security tasks, analyze data and Develope
+              custom security tools. My expertise extends to utilizing a range of cybersecurity tools and methadologies for 
+              vulnerability assessment and incident response
+            </p>
+
+            <ul class="skills-list">
+
+              <li class="skills-item">
+                <div class="wrapper">
+                  <h3 class="skill-title">HTML & CSS</h3>
+
+                  <data class="skill-value" value="95%">95%</data>
+                </div>
+
+                <div class="progress-box">
+                  <div class="progress" style="width: 95%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="wrapper">
+                  <h3 class="skill-title">JavaScript</h3>
+
+                  <data class="skill-value" value="80%">80%</data>
+                </div>
+
+                <div class="progress-box">
+                  <div class="progress" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="wrapper">
+                  <h3 class="skill-title">Python</h3>
+
+                  <data class="skill-value" value="90%">90%</data>
+                </div>
+
+                <div class="progress-box">
+                  <div class="progress" style="width: 90%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="wrapper">
+                  <h3 class="skill-title">Bash</h3>
+
+                  <data class="skill-value" value="90%">90%</data>
+                </div>
+
+                <div class="progress-box">
+                  <div class="progress" style="width: 90%"></div>
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="skills-banner has-before"></div>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #PRICING
+      -->
+
+      <section class="section pricing" id="price" aria-label="price">
+        <div class="container">
+
+          <div class="pricing-content">
+
+            <p class="section-subtitle">Skills</p>
+
+            <h2 class="h2 section-title">Interpersonal Skills</h2>
+
+            <p class="section-text">
+              I possess strong communication, interpersonal, and teamwork skills, enabling me to effectively collaborate with colleagues and stakeholders.
+               I am a highly motivated individual with a strong work ethic and the ability to adapt to new challenges and learn quickly.
+                I am a proactive problem-solver with excellent critical thinking and analytical skills, allowing me to effectively identify and address challenges.
+            </p>
+
+          </div>
+
+          <ul class="pricing-list">
+
+            <li>
+              <div class="pricing-card">
+                <ion-icon name="people-sharp" aria-hidden="true"></ion-icon>
+
+                <h3 class="card-title">Communication</h3>
+
+                <data class="card-price" value="500"></data>
+              </div>
+            </li>
+
+            <li>
+              <div class="pricing-card">
+                <ion-icon name="radio-outline" aria-hidden="true"></ion-icon>
+
+                <h3 class="card-title">Team Work</h3>
+
+                <data class="card-price" value="400"></data>
+              </div>
+            </li>
+
+            <li>
+              <div class="pricing-card">
+                <ion-icon name="stats-chart" aria-hidden="true"></ion-icon>
+
+                <h3 class="card-title">Problem Solving</h3>
+
+                <data class="card-price" value="300"></data>
+              </div>
+            </li>
+
+            <li>
+              <div class="pricing-card">
+                <ion-icon name="logo-tux" aria-hidden="true"></ion-icon>
+
+                <h3 class="card-title">Linux</h3>
+
+                <data class="card-price" value="200"></data>
+              </div>
+            </li>
+
+            <li>
+              <div class="pricing-card">
+                <ion-icon name="finger-print" aria-hidden="true"></ion-icon>
+
+                <h3 class="card-title">OSINT</h3>
+
+                <data class="card-price" value="100"></data>
+              </div>
+            </li>
+            <li>
+              <div class="pricing-card">
+                <ion-icon name="key-sharp" aria-hidden="true"></ion-icon>
+
+                <h3 class="card-title">Cryptography</h3>
+
+                <data class="card-price" value="100"></data>
+              </div>
+            </li>
+            <li>
+              <div class="pricing-card">
+                <ion-icon name="pulse-sharp" aria-hidden="true"></ion-icon>
+
+                <h3 class="card-title">Threat Intelligence</h3>
+
+                <data class="card-price" value="100"></data>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+      <section class="section timeline" id="timeline" aria-label="timeline">
+        <div class="container">
+
+          <p class="section-subtitle">Timeline</p>
+
+          <h2 class="h2 section-title">Education Period</h2>
+
+          <ul class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h3 class="item-period">April, 2006 - March, 2019 (X)</h3>
+
+              <p class="item-title">Srinivasa High School</p>
+
+              <p class="item-address">Hyderabad, Telangana</p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h3 class="item-period">April, 2020 - May, 2022 (XII)</h3>
+
+              <p class="item-title">Narayana Junior College [MPC]</p>
+
+              <p class="item-address">Nallakunta, Hyderabad, Telangana</p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h3 class="item-period">November, 2022 - September, 2026</h3>
+
+              <p class="item-title">Osmania University</p>
+
+              <p class="item-address">Hyderabad, Telangana</p>
+
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #NEWS
+      -->
+
+      <section class="section news" id="news" aria-label="news">
+        <div class="container">
+
+          <p class="section-subtitle">Latest</p>
+
+          <h2 class="h2 section-title">Projects</h2>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="card news-card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="passcomp.jpg" width="600" height="675" loading="lazy"
+                    alt="VS Code Gets New JavaScript Debugger" class="img-cover">
+                </figure>
+
+                <a href="https://github.com/KHADERSHAREEF19/Project3-Complexity_Analyzer" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <time class="card-text" datetime="2024-09-08">September 08, 2024</time>
+
+                  <h3 class="h3 card-title">Complexity Analyzer</h3>
+
+                </a>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="card news-card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="packetsniff.jpg" width="600" height="675" loading="lazy"
+                    alt="Javalin Framework for Kotlin and Java Updated" class="img-cover">
+                </figure>
+
+                <a href="https://github.com/KHADERSHAREEF19/Project4-Packet_Sniffer" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <time class="card-text" datetime="2024-12-12">December 12, 2024</time>
+
+                  <h3 class="h3 card-title">Packet Sniffer Tool</h3>
+
+                </a>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="card news-card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="ceasersecure.jpg" width="600" height="675" loading="lazy"
+                    alt="JavaScript Dominated Open Source in 2022" class="img-cover">
+                </figure>
+
+                <a href="https://github.com/KHADERSHAREEF19/Project1--Ceaser_Secure" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <time class="card-text" datetime="2022-07-05">July 05, 2022</time>
+
+                  <h3 class="h3 card-title">Ceaser Secure</h3>
+
+                </a>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="card news-card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="cryptopixel.jpg" width="600" height="675" loading="lazy"
+                    alt="Perfecto Tests Progressive Web Apps" class="img-cover">
+                </figure>
+
+                <a href="https://github.com/KHADERSHAREEF19/Project2-Crypto_Pixel" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <time class="card-text" datetime="2024-06-22">June 22, 2024</time>
+
+                  <h3 class="h3 card-title">Crypto Pixel</h3>
+
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" id="contact" aria-label="contact">
+        <div class="container">
+
+          <div class="contact-content">
+
+            <p class="section-subtitle">Contact</p>
+
+            <h2 class="h2 section-title">Get In Touch</h2>
+
+            <p class="section-text">
+              Please fill out the form on this section to contact with me. Or call between 9:00 a.m. and 8:00 p.m. IST,
+              Monday through
+              Friday
+            </p>
+
+            <ul class="contact-list">
+
+              <li class="contact-item">
+                <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+                <address class="contact-link">
+                  Amberpet, Hyderabad -13
+                </address>
+              </li>
+
+              <li class="contact-item">
+                <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+                <a href="tel:9515787655" class="contact-link">+91 9515787655</a>
+              </li>
+
+              <li class="contact-item">
+                <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+                <a href="mailto:kkmajestic56@gmail.com" class="contact-link">kkmajestic56@gmail.com</a>
+              </li>
+
+              <li class="contact-item">
+                <ion-icon name="logo-linkedin" aria-hidden="true"></ion-icon>
+
+                <a href="https://www.linkedin.com/in/khader-shareef-madani-129167260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="contact-link">www.linkedin.com</a>
+              </li>
+              <li class="contact-item">
+                <ion-icon name="logo-github" aria-hidden="true"></ion-icon>
+
+                <a href="https://github.com/KHADERSHAREEF19" class="contact-link">www.github.com</a>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <form action="" class="contact-form">
+
+            <input type="text" name="name" aria-label="name" placeholder="Name" required class="input-field">
+
+            <input type="email" name="email_address" aria-label="email" placeholder="Email" required
+              class="input-field">
+
+            <textarea name="message" aria-label="message" placeholder="Message" required class="input-field"></textarea>
+
+            <button type="submit" class="submit-btn">
+              <span class="span">Submit</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </button>
+
+          </form>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        &copy; 2025. All rights reserved by <a href="#" class="copyright-link">Garlyck</a>
+      </p>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://www.instagram.com/9ot.kh4derr?igsh=OGM2dzcxNDRhaHE2" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://x.com/kh4dr9019?t=ZI-oBtncMktZZLctD-XmvQ&s=08" class="social-link">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.reddit.com/u/Busy_Garlic_9019/s/Wwiw8kVnxH" class="social-link">
+            <ion-icon name="logo-reddit"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://github.com/KHADERSHAREEF19" class="social-link">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://youtube.com/@kkshareef181?feature=shared" class="social-link">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
