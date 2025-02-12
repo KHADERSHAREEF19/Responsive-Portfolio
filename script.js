@@ -59,7 +59,7 @@ document.querySelector(".contact-form").addEventListener("submit", async functio
     message: document.querySelector("textarea[name='message']").value
   };
 
-  let response = await fetch("http://127.0.0.1:5000/send-email", { // Change URL after deployment
+  let response = await fetch("https://khadershareef19.vercel.app/send-email", { 
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(formData)
