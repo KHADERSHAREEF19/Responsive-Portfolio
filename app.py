@@ -9,9 +9,9 @@ app = Flask(__name__)
 # Email configuration
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-EMAIL_ADDRESS = "kkmajestic56@gmail.com"  
-EMAIL_PASSWORD = "GARlyck/3737.8A@e2"  
-ADMIN_EMAIL = "kkmajestic56@gmail.com"
+EMAIL_ADDRESS = "infa.khadershareef@gmail.com"  
+EMAIL_PASSWORD = "comeback@2025**"  
+ADMIN_EMAIL = "infa.khadershareef@gmail.com"
 
 @app.route("/send-email", methods=["POST"])
 def send_email():
